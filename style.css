@@ -1,0 +1,87 @@
+:root{
+    --pr-hijau: #048853;
+}
+
+body{
+    font-family: "Poppins";
+    background-color: #E5E5E5;
+    
+}
+
+.navbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.accent-banner{
+    z-index: 1;
+}
+
+/* navbar style */
+.navbar-brand{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-link.active{
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-link{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-masuk{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+.btn-daftar{
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+/* navbar end */
+
+/* Style Hero */
+#hero{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    height: 100vh;
+}
+.text-hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 70px;
+}
+.text-hero p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 30px;
+    width: 85%;
+}
+.btn-lg{
+    width: 237px;
+    height: 70px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+    color: var(--pr-hijau);
+    border: none;
+}
+/* End Style Hero */
+
+/* layanan style */
+#our-service{
+    height:100vh;
+}
+/* end layanan */
