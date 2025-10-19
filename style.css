@@ -82,6 +82,110 @@ body{
 
 /* layanan style */
 #our-service{
-    height:100vh;
+    padding: 100px 0;
+    width: 100%;
 }
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--pr-hijau);
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+.card-layanan{
+    height: 313px;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 40px;
+    transition: all 0.1s ease-in;
+}
+.container-img{
+    height: 70px;
+    width: 70px;
+    background-color: var(--pr-hijau);
+    border-radius: 50%;
+    transition: all 0.1s ease-in;
+}
+.card-layanan h4{
+    font-size: 24px;
+    font-weight: 500;
+    color:var(--pr-hijau);
+    transition: all 0.1s ease-in;
+}
+.card-layanan p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#000;
+    transition: all 0.1s ease-in;
+}
+
+/* hover card */
+.card-layanan:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #000);
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover .container-img{
+    background-color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover h4{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+.card-layanan:hover p{
+    color: #fff;
+    transition: all 0.1s ease-in;
+}
+/* end hover card */
 /* end layanan */
+
+/* style temukan rumah */
+#temukan-rumah{
+    height: 100vh;
+    background-image: url(image/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    
+}
+.tmk-rumah {
+ color: #fff;
+ font-size: 48px;
+  font-weight:500;
+    padding-top: 100px ;
+}
+.sub-tmk-rmh{
+    color:#fff;
+   font-weight: 400;
+
+}
+ .btn-tap { 
+    height: 42px;
+    color:#000;
+    background-color:rgb(255,255,255,0.5);
+    border:none;
+    padding: 10px 20px ;
+    font-size: 18px;
+    font-weight: 400;
+}
+.jual{
+    border-radius: 10px 0 0 0;
+}
+.properti{
+   border-radius: 0 10px 0 0 ;
+}
+.btn-tap.active{
+   height: 42px;
+    color:var(--pr-hijau);
+    background-color:white;
+    border:none;
+    padding: 10px 20px 10px 20px;
+    font-size: 18;
+    font-weight: 400; 
+}
+
+
+/* end style temukan rumah */
