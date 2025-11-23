@@ -1,11 +1,11 @@
 :root{
-    --pr-hijau: #048853;
+    --pr-hijau:#048853;
 }
+
 
 body{
     font-family: "Poppins";
-    background-color: #E5E5E5;
-    
+    background-color: #E5E5E5 ;
 }
 
 .navbar{
@@ -47,11 +47,11 @@ body{
     border: none;
     font-size: 16px;
     font-weight: 400;
-    color: #fff;
+    color:#fff;
 }
 /* navbar end */
 
-/* Style Hero */
+/* style hero  */
 #hero{
     background: linear-gradient(160deg, var(--pr-hijau), #000);
     height: 100vh;
@@ -62,13 +62,15 @@ body{
     color: #fff;
     line-height: 70px;
 }
+
 .text-hero p{
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     line-height: 30px;
-    width: 85%;
+    width:75%;
 }
+
 .btn-lg{
     width: 237px;
     height: 70px;
@@ -76,9 +78,11 @@ body{
     font-weight: 700;
     background-color: #fff;
     color: var(--pr-hijau);
-    border: none;
+    border:none;
 }
-/* End Style Hero */
+
+
+/* end style hero */
 
 /* layanan style */
 #our-service{
@@ -86,8 +90,8 @@ body{
     width: 100%;
 }
 h1{
-    font-size: 48px;
-    font-weight: 700;
+    font-size: 45px;
+    font-weight: 600;
     color: var(--pr-hijau);
 }
 p{
@@ -145,47 +149,173 @@ p{
 /* style temukan rumah */
 #temukan-rumah{
     height: 100vh;
-    background-image: url(image/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering\ 1.png);
+    background-image: url(image/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering\ 2\ \(1\).png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;
-    
+    background-position: center;
 }
-.tmk-rumah {
- color: #fff;
- font-size: 48px;
-  font-weight:500;
-    padding-top: 100px ;
+.tmk-rumah{
+    font-size: 48px;
+    font-weight: 700;
+    color:#fff;
 }
 .sub-tmk-rmh{
-    color:#fff;
-   font-weight: 400;
-
+    font-size: 18px;
+    color: #fff;
 }
- .btn-tap { 
-    height: 42px;
-    color:#000;
-    background-color:rgb(255,255,255,0.5);
+
+
+.btn-tab{
+    height: 42px;   
+    color: #000;
+    background-color: rgb(255,255,255, 0.5);
     border:none;
-    padding: 10px 20px ;
+    padding: 10px 20px;
     font-size: 18px;
     font-weight: 400;
 }
 .jual{
     border-radius: 10px 0 0 0;
 }
-.properti{
-   border-radius: 0 10px 0 0 ;
+.property{
+    border-radius: 0 10px 0 0;
 }
-.btn-tap.active{
-   height: 42px;
+
+.btn-tab.active{
+    height: 42px;   
     color:var(--pr-hijau);
-    background-color:white;
+    background-color: rgba(255, 255, 255, 0.8);
     border:none;
     padding: 10px 20px 10px 20px;
-    font-size: 18;
-    font-weight: 400; 
+    font-size: 18px;
+    font-weight: 400;
+
+    transition: all 0.3s ease-in;
 }
 
+.input-group{
+    height: 88px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 0 0 0 10px;
+}
 
-/* end style temukan rumah */
+.btn-cari{
+    width: 135px;
+    height: 100%;
+    border: none;
+    background-color: var(--pr-hijau);
+    font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.btn-search{
+    width: 200px;
+    border: none;
+    background-color:transparent;
+    color: var(--pr-hijau);
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    border-right: solid 2px #fff;
+}
+.nav-tabs{
+    border: none;
+}
+.form-control{
+    border: none;
+    background-color:transparent;
+}
+.form-control::placeholder{
+    color: var(--pr-hijau);
+}
+.form-control:focus{
+    box-shadow: 1px 1px 5px 1px var(--pr-hijau);
+    color: var(--pr-hijau);
+}
+/* end style  temukan rumah */
+
+/* style rekomendasi rumah */
+.card{
+    height: 460px;
+    border : none;
+}
+.card-body h4{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: .8rem;
+}
+.card-body p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.card-fasilitas{
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    padding-top: 10px;
+}
+.card-fasilitas p{
+    font-size: 12px;
+    font-weight: 400;
+}
+.card:hover{
+    background: linear-gradient(160deg, var(--pr-hijau), #05b46e, #000);
+}
+.card:hover .card-body h4{
+    color: #fff;
+}
+.card:hover .card-body p{
+    color: #fff;
+}
+.card:hover .card-fasilitas{
+    background-color: #fff;
+}
+
+/* end style rekomendasi rumah */
+/* style fitur */
+.btn-lihat{
+    border:none ;
+    background-color: var(--pr-hijau);
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    width: 238px;
+    border-radius: 3px;
+}
+.overlay h5{
+    font-size:36px;
+    font-weight: 500;
+    color:#fff;
+}
+.overlayh h6{
+    font-size: 24px;
+    font-weight: 500;
+    color:#fff
+}
+.overlay span{
+    font-size:14px;
+    font-weight: 400;
+    color :#fff;
+}
+.btn-ir{
+    border:none;
+    background-color: var(--pr-hijau);
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font-weight:500; 
+    color: #fff;
+}
+.card-fitur{
+  width: 340px;
+  height: 380px;
+}
+.overlay{
+    background: rgba(0,0,0, 0.5);
+    transition: all ease-in-out .3s;
+}
+/* style fitur end */
